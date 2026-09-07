@@ -1,9 +1,8 @@
 class Hotub < Formula
   desc "Fire + water screensavers for your terminal"
   homepage "https://github.com/askmaddyy/hotub"
-  url "https://github.com/askmaddyy/hotub.git",
-      tag:      "v0.1.0",
-      revision: "3d8329f9816659d5e6930bd93c958c17d54d0f9a"
+  url "https://github.com/askmaddyy/hotub/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "70a21cde333a366e1f11f07824ec23e591d4371d0b010b00639d9718997b9e77"
   depends_on "rust" => :build
 
   def install
